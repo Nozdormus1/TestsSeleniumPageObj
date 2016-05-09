@@ -21,11 +21,6 @@ public class TestFlightsFill {
         driver.get("https://www.expedia.com/Flights");
     }
 
-    /**
-     * This test case will login in http://autoqa.pp.ua/wp-login.php
-     * Login to application
-     * Verify the home page using Dashboard message
-     */
     @Test
     public void test_Home_Page_Appear_Correct(){
         //Create Flights Page object
